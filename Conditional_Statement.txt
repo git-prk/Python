@@ -1,0 +1,117 @@
+# one input and multiple outcome 
+
+
+# numT >  0 && numT <= 5  =====> 10 % discount 
+# numT > 5  && numT <= 10 =====> 20 % discount 
+# numT > 10               =====> 30 % discount
+
+numT = 7
+
+# if numT > 0 and numT <= 5:
+#     print("10 % disocunt")
+# if numT > 5 and numT <= 10:
+#     print("20 % disocunt")
+# if numT > 10:
+#     print("30 % disocunt")
+
+
+# if numT > 0 and numT <= 5:
+#     print("10 % disocunt")
+# elif numT > 5 and numT <= 10:
+#     print("20 % disocunt")
+# elif numT > 10:
+#     print("30 % disocunt")
+# else:
+#     print("incorrect number")
+
+
+
+# program 2 
+
+marks = 56
+
+# if marks > 90:
+#     print("grade A")
+# if marks >= 75:
+#     print("grade B")
+# if marks >= 65:
+#     print("grade C")
+
+
+# if marks > 90:
+#     print("grade A")
+# elif marks >= 75:
+#     print("grade B")
+# elif marks >= 65:
+#     print("grade C")
+# else:
+#     print("please try again")
+
+
+
+# program 4 
+e = 10 
+f = 5 
+
+if( e > f):
+    print("e is greater")
+else:
+    print("f is greater")
+
+
+#program 5
+    
+# x1 = 10 
+# x2 = 5
+# x3 = 2
+
+# if x1 > x2 and x1 > x3:
+#     print("x1 is greater")
+# elif x2 > x1 and x2 > x3:
+#     print("x2 is greater")
+# else:
+#     print("x3 is greater")
+
+q = 45
+r = 15
+
+if q > r:
+    print('q is greater')
+else:
+    print('r is greater')
+
+# ternary operator
+print("q is greater") if q > r else print("r is greater")
+
+age = 17
+e = "can drive" if age >= 18 else "cannot drive"
+print(e)
+
+
+#for loop   and while loop
+
+
+#for x in range(startIndex,endIndex(not included),steps):
+    #statements
+
+print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+
+for x in range(4):
+    print(x)
+
+for x in range(1,10):
+    print(x)
+
+for x in range(1,4):
+    print("hello")
+
+# 1    2    3    4    5    6    7    8    9   10
+for x in range(1,11,3):
+    print(x)
+
+for x in range(2,21,2):
+    print(x)
