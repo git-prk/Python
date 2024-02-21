@@ -12,23 +12,23 @@
 
 
 
-for i in range(5):
-    print(" I Love Python!!!")
+#for i in range(5):
+ #   print(" I Love Python!!!")
 
 
 i = 0
 while i < 6:
-    print(" I Love Python!!!")
+    print(" I Love Python!")
     i = i + 1
 
 i = 0
 while i < 6:
     i = i + 1
-    print(" I Love Python!!!")
+    print(" I Love Python!!")
 
 
 i = 0
-while i < 5:
+while i < 1:
     i = i + 1
     print(" I Love Python!!!")
 
