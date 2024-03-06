@@ -187,3 +187,20 @@ print(f)
 
 str = 'The morning meeting will be scheduled at 8am or 9am , evening at 8pm or 9pm'
 #[8am,9am,8pm,9pm]
+
+
+
+
+
+
+
+s9 = 'geeks for geek: A computer science portal for geeks'
+d= re.search (r'computer', s9)
+
+print('Start Index:', d.start()) 
+print('End Index:', d.end()) 
+f4=re.search(r'g\w\w\w\w',s9)
+if f4:
+    print(f4.group())
+else:
+    print("pattern not found")
