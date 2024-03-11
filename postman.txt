@@ -1,0 +1,24 @@
+let body = pm.response.json()
+pm.test("validate the reponse",function(){
+    pm.response.to.have.status(200)
+    pm.expect(body).to.have.property("MSG")
+})
+
+
+
+Test script to validate response
+var responseBody = pm.response.json();
+var borrowerId = responseBody.data.preparedbiTmpl[0].borrower_id;
+pm.test("Borrower ID is present", function () {
+    pm.expect(borrowerId).to.not.be.null;
+    pm.expect(borrowerId).to.not.be.undefined;
+});
+var loanappid = responseBody.data.preparedbiTmpl[0].loan_app_id;
+pm.test("loan app id is present", function () {
+    pm.expect(loanappid).to.not.be.null;
+    pm.expect(loanappid).to.not.be.undefined;
+})
+
+
+
+

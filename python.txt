@@ -1,0 +1,4 @@
+python-
+
+Class-user defined data type
+constuctor--to define properties at the time of object creation
